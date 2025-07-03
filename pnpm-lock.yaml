@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@astrojs/compiler':
+        specifier: ^2.12.2
+        version: 2.12.2
     devDependencies:
       '@types/mocha':
         specifier: ^10.0.10
@@ -43,6 +47,9 @@ importers:
         version: 5.8.3
 
 packages:
+
+  '@astrojs/compiler@2.12.2':
+    resolution: {integrity: sha512-w2zfvhjNCkNMmMMOn5b0J8+OmUaBL1o40ipMvqcG6NRpdC+lKxmTi48DT8Xw0SzJ3AfmeFLB45zXZXtmbsjcgw==}
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -1633,6 +1640,8 @@ packages:
     engines: {node: '>=10'}
 
 snapshots:
+
+  '@astrojs/compiler@2.12.2': {}
 
   '@bcoe/v8-coverage@0.2.3': {}
 
